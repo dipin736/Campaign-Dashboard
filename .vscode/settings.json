@@ -1,0 +1,14 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false,
+    "prettier.jsxBracketSameLine": false,
+    "prettier.jsxSingleQuote": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
+    "prettier.semi": true,
+    "prettier.arrowParens": "avoid",
+    "editor.maxTokenizationLineLength": 2500
+}
