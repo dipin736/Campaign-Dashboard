@@ -63,7 +63,7 @@ export function CampaignDetailsModal({ campaignId, open, onClose }: Props) {
 
     return (
         <Dialog open={open} onOpenChange={onClose}>
-            <DialogContent className="max-w-5xl p-4 overflow-hidden">
+            <DialogContent className="w-2/5 min-w-[40%] max-w-[40%] rounded-lg bg-white shadow-sm">
                 <div className="flex items-center justify-between px-6 py-4 border-b bg-background">
                     <div>
                         <h2 className="text-lg font-semibold leading-tight">{campaign?.name ?? 'Loading campaign…'}</h2>
